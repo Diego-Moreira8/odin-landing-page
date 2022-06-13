@@ -69,6 +69,7 @@ button {
   border: none;
   border-radius: 0.5rem;
   padding: 0.5rem 2rem;
+  cursor: pointer;
 }
 
 /* RANDOM INFO */
@@ -128,4 +129,30 @@ h2 {
   font-size: 1.5rem;
   display: flex;
   justify-content: end;
+}
+
+/* ACTION */
+.action {
+  background-color: var(--white-text);
+  padding: 5rem 10rem;
+}
+
+.action-container {
+  background-color: var(--button-color);
+  color: var(--white-text);
+  padding: 3rem 10rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.action button {
+  border: 2px solid var(--white-text);
 }
