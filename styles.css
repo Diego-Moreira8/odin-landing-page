@@ -1,3 +1,13 @@
+/* Delete when style images */
 img {
   width: 10rem;
+}
+
+:root {
+  font-family: Roboto, serif;
+  font-size: 16px;
+  --dark-background-color: #1f2937;
+  --secondary-text-color: #e5e7eb;
+  --white-text: #f9faf8;
+  --button-color: #3882f6;
 }
