@@ -156,3 +156,12 @@ h2 {
 .action button {
   border: 2px solid var(--white-text);
 }
+
+/* FOOTER */
+footer {
+  background-color: var(--dark-background-color);
+  color: var(--secondary-text-color);
+  text-align: center;
+  font-size: 1.125rem;
+  padding: 3rem 0;
+}
