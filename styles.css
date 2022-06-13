@@ -1,8 +1,3 @@
-/* Delete when style images */
-img {
-  width: 10rem;
-}
-
 :root {
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -12,6 +7,7 @@ img {
   --button-color: #3882f6;
 }
 
+/* HEADER */
 header {
   background-color: var(--dark-background-color);
   color: var(--white-text);
@@ -22,11 +18,13 @@ header {
 
 .logo strong {
   font-weight: bolder;
+  font-size: 1.5rem;
 }
 
 header a {
   text-decoration: none;
   color: var(--secondary-text-color);
+  font-size: 1.125rem;
 }
 
 nav ul {
@@ -35,4 +33,40 @@ nav ul {
 
 nav li {
   margin-left: 1.5rem;
+}
+
+/* LANDING SECTION */
+.landing {
+  background-color: var(--dark-background-color);
+  color: var(--white-text);
+  padding: 5rem 10rem 5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+}
+
+.landing p {
+  font-size: 1.125rem;
+  line-height: 1.25;
+  margin-bottom: 0.5rem;
+}
+
+.landing img {
+  width: 45%;
+  border-radius: 1rem;
+}
+
+button {
+  background-color: var(--button-color);
+  color: var(--white-text);
+  font-size: 1.125rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
 }
