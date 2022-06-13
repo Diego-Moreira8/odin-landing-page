@@ -4,10 +4,35 @@ img {
 }
 
 :root {
-  font-family: Roboto, serif;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   --dark-background-color: #1f2937;
   --secondary-text-color: #e5e7eb;
   --white-text: #f9faf8;
   --button-color: #3882f6;
+}
+
+header {
+  background-color: var(--dark-background-color);
+  color: var(--white-text);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 10rem;
+}
+
+.logo strong {
+  font-weight: bolder;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-left: 1.5rem;
 }
